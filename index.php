@@ -42,6 +42,7 @@
 		<img src="img/logo.png" alt="logo">
    
       </div>
+	  
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
