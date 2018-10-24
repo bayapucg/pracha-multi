@@ -784,7 +784,7 @@ table.dataTable {
 
 .logo {
 	display: block;
-	line-height: 60px;
+	padding-top:15px;
 }
 
 .header .navbar-nav .badge {

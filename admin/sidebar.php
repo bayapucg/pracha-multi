@@ -4,9 +4,14 @@
 					<div id="sidebar-menu" class="sidebar-menu">
 						<ul>
 							<li class="active"> 
-								<a href="index.php">Nav</a>
+								<a href="index.php">Nav <span class="menu-arrow"></span></a>
 							</li>
-							<li class="submenu">
+							<li class=""> 
+								<a href="slider.php">Sliders <span class="menu-arrow"></span></a>
+							</li><li class=""> 
+								<a href="index.php">Nav  <span class="menu-arrow"></span></a>
+							</li>
+							<!--<li class="submenu">
 								<a href="#" class="noti-dot"><span> Employees </span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
 									<li><a href="employees-list.php">All Employees</a></li>
@@ -42,7 +47,7 @@
 							<li class="">
 								<a href="salestrack.php" ><span>Salesman Man Track </span> </a>
 								
-							</li>
+							</li>-->
 							
 						</ul>
 					</div>
