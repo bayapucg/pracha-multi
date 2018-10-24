@@ -8,13 +8,13 @@
 						</div>
 					
 					</div>
-					<form id="defaultForm" method="post" class="m-b-30" action="addsalery.php">
+					<form id="defaultForm" method="post" class="m-b-30" action="services.php">
 					
 								<div class="row"> 
 									<div class="col-md-12"> 
 										<div class="form-group">
 											<label>Paragraph</label>
-											 <textarea class="form-control" rows="5" ></textarea>
+											 <textarea class="form-control" rows="5" name="lastName"></textarea>
 										</div>
 									</div>
 									

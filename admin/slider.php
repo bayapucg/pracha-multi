@@ -8,19 +8,19 @@
 						</div>
 					
 					</div>
-					<form id="defaultForm" method="post" class="m-b-30" action="addsalery.php">
+					<form id="defaultForm" method="post" class="m-b-30" action="slider.php">
 					
 								<div class="row"> 
 									<div class="col-md-6"> 
 										<div class="form-group">
 											<label>Upload Slider 1</label>
-											<input type="file" class="form-control">
+											<input type="file" class="form-control" >
 										</div>
 									</div>
 									<div class="col-md-6"> 
 										<div class="form-group">
 											<label>First Slider Text</label>
-											<input type="text" class="form-control" placeholder="Enter Slider Text">
+											<input type="text" class="form-control" placeholder="Enter Slider Text" name="lastName">
 										</div>
 									</div>
 								</div>

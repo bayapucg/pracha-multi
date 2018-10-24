@@ -9,12 +9,21 @@
 							</li>
 							<li class=""> 
 								<a href="slider.php">Sliders <span class="menu-arrow"></span></a>
-							</li><li class=""> 
+							</li>
+							<li class=""> 
 								<a href="aboutus.php">About Us  <span class="menu-arrow"></span></a>
-							</li></li><li class=""> 
+							</li>
+							<li class=""> 
 								<a href="services.php">Services <span class="menu-arrow"></span></a>
-							</li></li></li><li class=""> 
+							</li>
+							<li class=""> 
 								<a href="gallery.php">Gallery<span class="menu-arrow"></span></a>
+							</li>
+							<li class=""> 
+								<a href="Testimonial.php">Testimonial<span class="menu-arrow"></span></a>
+							</li>
+							<li class=""> 
+								<a href="contactus.php">ContactUs<span class="menu-arrow"></span></a>
 							</li>
 							<!--<li class="submenu">
 								<a href="#" class="noti-dot"><span> Employees </span> <span class="menu-arrow"></span></a>
