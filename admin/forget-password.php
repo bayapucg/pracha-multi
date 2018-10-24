@@ -9,16 +9,17 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		
     </head>
-<body>
+<body class="bg">
         <div class="main-wrapper">
 			<div class="account-page">
 				<div class="container">
-					<h3 class="account-title">HRMS Login</h3>
+					<h3 class="account-title" style="color:#fff;">Forget Password</h3>
 					<div class="account-box">
-						<div class="account-wrapper">
-							<div class="account-logo">
-								<a href=""><img src="assets/img/logo2.png" alt="Focus Technologies"></a>
+						<div class="account-logo bg-primary py-5" style="margin-bottom:0px">
+								<a href=""><img src="assets/img/logo.png" alt="Focus Technologies"></a>
 							</div>
+						<div class="account-wrapper">
+						
 							<form>
 								<div class="form-group form-focus">
 									<label class="control-label">Username or Email</label>
