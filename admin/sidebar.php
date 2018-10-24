@@ -10,7 +10,11 @@
 							<li class=""> 
 								<a href="slider.php">Sliders <span class="menu-arrow"></span></a>
 							</li><li class=""> 
-								<a href="index.php">Nav  <span class="menu-arrow"></span></a>
+								<a href="aboutus.php">About Us  <span class="menu-arrow"></span></a>
+							</li></li><li class=""> 
+								<a href="services.php">Services <span class="menu-arrow"></span></a>
+							</li></li></li><li class=""> 
+								<a href="gallery.php">Gallery<span class="menu-arrow"></span></a>
 							</li>
 							<!--<li class="submenu">
 								<a href="#" class="noti-dot"><span> Employees </span> <span class="menu-arrow"></span></a>

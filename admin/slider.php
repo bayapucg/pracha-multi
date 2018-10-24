@@ -33,7 +33,35 @@
 									</div>
 									<div class="col-md-6"> 
 										<div class="form-group">
-											<label>Seccond Slider Text</label>
+											<label>Second Slider Text</label>
+											<input type="text" class="form-control" placeholder="Enter Slider Text">
+										</div>
+									</div>
+								</div>
+								<div class="row"> 
+									<div class="col-md-6"> 
+										<div class="form-group">
+											<label>Upload Slider 3</label>
+											<input type="file" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6"> 
+										<div class="form-group">
+											<label>Third Slider Text</label>
+											<input type="text" class="form-control" placeholder="Enter Slider Text">
+										</div>
+									</div>
+								</div>
+								<div class="row"> 
+									<div class="col-md-6"> 
+										<div class="form-group">
+											<label>Upload Slider 4</label>
+											<input type="file" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6"> 
+										<div class="form-group">
+											<label>Fourth Slider Text</label>
 											<input type="text" class="form-control" placeholder="Enter Slider Text">
 										</div>
 									</div>
