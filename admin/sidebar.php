@@ -26,9 +26,7 @@
 								</ul>
 							</li>
 							
-							<li class=""> 
-								<a href="">About Us  <span class="menu-arrow"></span></a>
-							</li>
+						
 							<li class=""> 
 								<a href="services.php">Services <span class="menu-arrow"></span></a>
 							</li>
