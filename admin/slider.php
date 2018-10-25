@@ -68,7 +68,7 @@
 								</div>
 								
 								<div class="m-t-20 text-center">
-									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Upload</button>
+									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Upload Sliders</button>
 																	</div>
 							</form>
 						
