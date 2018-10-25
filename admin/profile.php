@@ -22,9 +22,8 @@
 										<div class="row">
 											<div class="col-md-5">
 												<div class="profile-info-left">
-													<h3 class="user-name m-t-0 m-b-0">John Doe</h3>
-													<small class="text-muted">Manager</small>
-													<div class="staff-id">Employee ID : SSB-0001</div>
+													<h3 class="user-name" style="margin-top:20px;">John Doe</h3>
+													
 												
 												</div>
 											</div>
@@ -75,28 +74,8 @@
 													</div>
 												</div>
 											</li>
-											<li>
-												<div class="experience-user">
-													<div class="before-circle"></div>
-												</div>
-												<div class="experience-content">
-													<div class="timeline-content">
-														<a href="#/" class="name">Joining Date</a>
-														<div>10/10/2018</div>
-													</div>
-												</div>
-											</li>
-											<li>
-												<div class="experience-user">
-													<div class="before-circle"></div>
-												</div>
-												<div class="experience-content">
-													<div class="timeline-content">
-														<a href="#/" class="name">Login Name</a>
-														<div>Bayapuxxx</div>
-													</div>
-												</div>
-											</li>	
+										
+											
 											<li>
 												<div class="experience-user">
 													<div class="before-circle"></div>
@@ -126,22 +105,11 @@
 									</div>
 								</div>
 								<div class="col-md-6">
-									<h3 class="card-title">Basic Information</h3>
+								
 									<div class="experience-box">
 										<ul class="experience-list">
 											
-											<li>
-												<div class="experience-user">
-													<div class="before-circle"></div>
-												</div>
-												<div class="experience-content">
-													<div class="timeline-content">
-														<a href="#/" class="name">Designation </a>
-														<div>Admin</div>
-														
-													</div>
-												</div>
-											</li>
+											
 											
 											<li>
 												<div class="experience-user">

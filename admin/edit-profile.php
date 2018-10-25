@@ -35,8 +35,8 @@
 											</div>
 											<div class="col-md-6">
 												<div class="form-group form-focus">
-													<label class="control-label">Birth Date</label>
-													<div class="cal-icon"><input class="form-control floating datetimepicker" type="text"></div>
+													<label class="control-label">Email</label>
+													<input type="email" class="form-control floating" />
 												</div>
 											</div>
 											<div class="col-md-6">
@@ -57,116 +57,22 @@
 						<div class="card-box">
 							<h3 class="card-title">Contact Informations</h3>
 							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group form-focus">
-										<label class="control-label">Address</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
 								<div class="col-md-6">
 									<div class="form-group form-focus">
-										<label class="control-label">State</label>
+										<label class="control-label">Current Address</label>
 										<input type="text" class="form-control floating" />
 									</div>
-								</div>
-								<div class="col-md-6">
+								</div>	<div class="col-md-6">
 									<div class="form-group form-focus">
-										<label class="control-label">Country</label>
+										<label class="control-label">Permanent Address</label>
 										<input type="text" class="form-control floating" />
 									</div>
 								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Pin Code</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Phone Number</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
+								
 							</div>
 						</div>
-						<div class="card-box">
-							<h3 class="card-title">Education Informations</h3>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Institution</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Subject</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Starting Date</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Complete Date</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Degree</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Grade</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-							</div>
 						
-						</div>
-						<div class="card-box">
-							<h3 class="card-title">Experience Informations</h3>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Company Name</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Location</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Job Position</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Period From</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group form-focus">
-										<label class="control-label">Period To</label>
-										<input type="text" class="form-control floating" />
-									</div>
-								</div>
-							</div>
-							
-						</div>
+						
 						<div class="text-center m-t-20">
 							<button class="btn btn-primary btn-lg" type="button">Save &amp; update</button>
 						</div>
