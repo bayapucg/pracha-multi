@@ -17,7 +17,7 @@
 								</ul>
 							</li>
 							<li class="submenu">
-								<a href="#" class="noti-dot"><span> About Us </span> <span class="menu-arrow"></span></a>
+								<a href="#" class=""><span> About Us </span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
 								
 									<li><a href="aboutus.php">About Us</a></li>
@@ -26,7 +26,7 @@
 								</ul>
 							</li>
 							<li class="submenu">
-								<a href="#" class="noti-dot"><span> Services  </span> <span class="menu-arrow"></span></a>
+								<a href="#" class=""><span> Services  </span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
 								
 									<li><a href="services.php">Services</a></li>
@@ -35,7 +35,7 @@
 								</ul>
 							</li>
 							<li class="submenu">
-								<a href="#" class="noti-dot"><span> Gallery </span> <span class="menu-arrow"></span></a>
+								<a href="#" class=""><span> Gallery </span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
 								
 									<li><a href="gallery.php">Gallery</a></li>
@@ -43,10 +43,17 @@
 						
 								</ul>
 							</li>
-							
-							<li class=""> 
-								<a href="testimonial.php">Testimonial<span class="menu-arrow"></span></a>
+							<li class="submenu">
+								<a href="#" class=""><span> Testimonial </span> <span class="menu-arrow"></span></a>
+								<ul class="list-unstyled" style="display: none;">
+								
+									<li><a href="testimonial.php">Testimonial</a></li>
+									<li><a href="testimonial-list.php">Testimonial List</a></li>
+						
+								</ul>
 							</li>
+							
+							
 							<li class=""> 
 								<a href="contactus.php">ContactUs<span class="menu-arrow"></span></a>
 							</li>

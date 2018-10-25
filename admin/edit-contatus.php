@@ -6,10 +6,7 @@
 						<div class="col-xs-4">
 							<h4 class="page-title">Contact Us</h4>
 						</div>
-						<div class="col-xs-8 text-right m-b-30">
-							<a href="edit-contatus.php" class="btn btn-warning pull-right rounded" ><i class="fa fa-edit"></i> Edit </a>
 						
-						</div>
 					
 					</div>
 					<form id="defaultForm" method="post" class="m-b-30" action="contactus.php">
@@ -114,7 +111,7 @@
 									
 								</div>
 								<div class="m-t-20 text-center">
-									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Upload</button>
+									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Submit</button>
 																	</div>
 							</form>
 						
