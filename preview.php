@@ -604,12 +604,22 @@
     </div>
 
     <div class="container">
+      <div class="row">
+      <div class="col-md-8">
       <div class="copyright">
         &copy; Copyright <strong>prachatech</strong>. All Rights Reserved
       </div>
       <div class="credits">
        
         Designed by <a href="https://bootstrapmade.com/">prachatech</a>
+      </div>
+      </div>
+	  <div class="col-md-2">
+	   
+		<button class="btn btn-success" style="margin-top:40px;">Preview Ok</button>
+ 
+		
+      </div>
       </div>
     </div>
   </footer><!-- #footer -->

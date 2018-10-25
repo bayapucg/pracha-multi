@@ -3,8 +3,8 @@
             <div class="page-wrapper">
                 <div class="content container-fluid bg-white">	
 					<div class="row">
-						<div class="col-xs-4">
-							<h4 class="page-title">Gallery</h4>
+						<div class="col-xs-12">
+							<h4 class="page-title">Gallery <span class="text-warning">( image Should be 400px width and height 300px )</span></h4>
 						</div>
 					
 					

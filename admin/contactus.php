@@ -12,7 +12,22 @@
 					
 								<div class="row"> 
 								<div class="col-lg-12">
-								<h4 class="text-primary">Contact Details</h4>
+									<h4 class="text-primary">Contact us form Email</h4>
+								</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Email </label>
+											<input type="text" class="form-control" placeholder="Enter Email id">
+										</div>
+										
+										
+									</div>
+									
+									
+								</div>
+								<div class="row"> 
+								<div class="col-lg-12">
+								<h4 class="text-primary">Contact us </h4>
 								</div>
 									<div class="col-md-6">
 										<div class="form-group">

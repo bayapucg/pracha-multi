@@ -3,8 +3,8 @@
             <div class="page-wrapper">
                 <div class="content container-fluid bg-white">	
 					<div class="row">
-						<div class="col-xs-4">
-							<h4 class="page-title">Sliders</h4>
+						<div class="col-xs-12">
+							<h4 class="page-title">Sliders <span class="text-warning">(upload 1920px width, height 1200px)</span></h4>
 						</div>
 					
 					</div>

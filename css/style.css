@@ -627,10 +627,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-col .img {
   position: relative;
+ 
 }
 
 #about .about-col .img img {
   border-radius: 4px 4px 0 0;
+   height:205px;
+   
+   
 }
 
 #about .about-col .icon {
@@ -979,6 +983,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item .portfolio-info h4 a {
   color: #333;
+  line-height:24px;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 a:hover {

@@ -20,10 +20,13 @@
 								<a href="gallery.php">Gallery<span class="menu-arrow"></span></a>
 							</li>
 							<li class=""> 
-								<a href="Testimonial.php">Testimonial<span class="menu-arrow"></span></a>
+								<a href="testimonial.php">Testimonial<span class="menu-arrow"></span></a>
 							</li>
 							<li class=""> 
 								<a href="contactus.php">ContactUs<span class="menu-arrow"></span></a>
+							</li>
+							<li class=""> 
+								<a href="../preview.php">Preview<span class="menu-arrow"></span></a>
 							</li>
 							<!--<li class="submenu">
 								<a href="#" class="noti-dot"><span> Employees </span> <span class="menu-arrow"></span></a>
