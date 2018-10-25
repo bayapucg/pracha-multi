@@ -4,10 +4,10 @@
                 <div class="content container-fluid">	
 					<div class="row">
 						<div class="col-xs-4">
-							<h4 class="page-title">About Us</h4>
+							<h4 class="page-title">Gallery</h4>
 						</div>
-						<div class="col-xs-8 text-center m-b-30">
-							<a href="aboutus.php" class="btn btn-primary pull-right rounded" ><i class="fa fa-plus"></i> Add About Us</a>
+						<div class="col-xs-8 text-right m-b-30">
+							<a href="gallery.php" class="btn btn-primary pull-right rounded" ><i class="fa fa-plus"></i> Add Gallery</a>
 						
 						</div>
 					</div>
@@ -20,45 +20,32 @@
 									<table id="example1" class="table table-bordered table-striped">
 									<thead>
 										<tr>
-											<th >Paragraph</th>
-											<td colspan="2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+											<th style="width:30%;">Image</th>
+											<th>Title</th>
 											
-											<th class="text-center">Action</th>
+											<th class="text-right">Action</th>
 										</tr>
 									</thead>
 									<tbody>
 										
 									
 										<tr>
-											<th>
-												Our Mission
-											</th>
+											<td>
+												<img class="img-responsive" src="assets/img/fruit.jpeg" alt="" style="height:50px;width:auto;">
+											</td>
 											
-											<td><img class="img-responsive" src="assets/img/fruit.jpeg" alt="" style="height:50px;width:auto;"></td>
-											<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
-											<td class="text-center">
+											<td>fruit</td>
+											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
 											</td>
 										</tr>
 										<tr>
-											<th>
-												Our Plan
-											</th>
-											
-											<td><img class="img-responsive" src="assets/img/fruit.jpeg" alt="" style="height:50px;width:auto;"></td>
-											<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
-											<td class="text-center">
-												<button type="button" class="btn btn-danger">Delete</button>
+											<td>
+												<img class="img-responsive" src="assets/img/flower.jpeg" alt="" style="height:50px;width:auto;">
 											</td>
-										</tr>
-										<tr>
-											<th>
-												Our Vision
-											</th>
 											
-											<td><img class="img-responsive" src="assets/img/fruit.jpeg" alt="" style="height:50px;width:auto;"></td>
-											<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
-											<td class="text-center">
+											<td>flower</td>
+											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
 											</td>
 										</tr>

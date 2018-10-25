@@ -34,12 +34,16 @@
 						
 								</ul>
 							</li>
-							
+							<li class="submenu">
+								<a href="#" class="noti-dot"><span> Gallery </span> <span class="menu-arrow"></span></a>
+								<ul class="list-unstyled" style="display: none;">
+								
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="gallery-list.php">Gallery List</a></li>
 						
-							
-							<li class=""> 
-								<a href="gallery.php">Gallery<span class="menu-arrow"></span></a>
+								</ul>
 							</li>
+							
 							<li class=""> 
 								<a href="testimonial.php">Testimonial<span class="menu-arrow"></span></a>
 							</li>

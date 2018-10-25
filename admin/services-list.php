@@ -4,10 +4,10 @@
                 <div class="content container-fluid">	
 					<div class="row">
 						<div class="col-xs-4">
-							<h4 class="page-title">Sliders</h4>
+							<h4 class="page-title">Services</h4>
 						</div>
 						<div class="col-xs-8 text-right m-b-30">
-							<a href="slider.php" class="btn btn-primary pull-right rounded" ><i class="fa fa-plus"></i> Add Slider</a>
+							<a href="services.php" class="btn btn-primary pull-right rounded" ><i class="fa fa-plus"></i> Add Services</a>
 						
 						</div>
 					</div>
@@ -16,11 +16,19 @@
 					<div class="row">
 						<div class="col-md-12 bg-white">
 						<div class="clearfix">&nbsp;</div>
+						<div class="table-responsive">
+						<table class="table table-bordered table-striped">
+						<tr>
+						<th>Paragraph</th>
+						<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+						</tr>
+						</table>
+						</div>
 							<div class="table-responsive">
 									<table id="example1" class="table table-bordered table-striped">
 									<thead>
 										<tr>
-											<th >Service No</th>
+											<th>Service No</th>
 											<th>Heading</th>
 											<th>Paragraph</th>
 											<th class="text-right">Action</th>
@@ -34,24 +42,15 @@
 												1
 											</td>
 											
-											<td>fruit</td>
+											<td>this is dummy heading</td>
 											<td >
-												
+												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
 											</td>
 											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
 											</td>
 										</tr>
-										<tr>
-											<td>
-												<img class="img-responsive" src="assets/img/flower.jpeg" alt="" style="height:50px;width:auto;">
-											</td>
-											
-											<td>flower</td>
-											<td class="text-right">
-												<button type="button" class="btn btn-danger">Delete</button>
-											</td>
-										</tr>
+										
 									</tbody>
 								</table>
 							</div>
