@@ -6,7 +6,10 @@
 						<div class="col-xs-4">
 							<h4 class="page-title">Employee</h4>
 						</div>
+						<div class="col-xs-8 text-right m-b-30">
+							<a href="slider.php" class="btn btn-primary pull-right rounded" ><i class="fa fa-plus"></i> Add Slider</a>
 						
+						</div>
 					</div>
 					<form>
 					

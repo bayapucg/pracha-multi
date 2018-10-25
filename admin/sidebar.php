@@ -16,10 +16,17 @@
 						
 								</ul>
 							</li>
-							
-							<li class=""> 
-								<a href="aboutus.php">About Us  <span class="menu-arrow"></span></a>
+							<li class="submenu">
+								<a href="#" class="noti-dot"><span> About Us </span> <span class="menu-arrow"></span></a>
+								<ul class="list-unstyled" style="display: none;">
+								
+									<li><a href="aboutus.php">About Us</a></li>
+									<li><a href="aboutus-list.php">About us List</a></li>
+						
+								</ul>
 							</li>
+							
+						
 							<li class=""> 
 								<a href="services.php">Services <span class="menu-arrow"></span></a>
 							</li>
