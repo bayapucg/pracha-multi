@@ -20,9 +20,9 @@
 									<table id="example1" class="table table-bordered table-striped">
 									<thead>
 										<tr>
-											<th style="width:30%;">Name</th>
+											<th >Service No</th>
 											<th>Heading</th>
-											
+											<th>Paragraph</th>
 											<th class="text-right">Action</th>
 										</tr>
 									</thead>
@@ -31,10 +31,13 @@
 									
 										<tr>
 											<td>
-												<img class="img-responsive" src="assets/img/fruit.jpeg" alt="" style="height:50px;width:auto;">
+												1
 											</td>
 											
 											<td>fruit</td>
+											<td >
+												
+											</td>
 											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
 											</td>

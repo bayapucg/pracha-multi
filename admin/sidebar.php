@@ -25,11 +25,18 @@
 						
 								</ul>
 							</li>
+							<li class="submenu">
+								<a href="#" class="noti-dot"><span> Services  </span> <span class="menu-arrow"></span></a>
+								<ul class="list-unstyled" style="display: none;">
+								
+									<li><a href="services.php">Services</a></li>
+									<li><a href="services-list.php">Services List</a></li>
+						
+								</ul>
+							</li>
 							
 						
-							<li class=""> 
-								<a href="services.php">Services <span class="menu-arrow"></span></a>
-							</li>
+							
 							<li class=""> 
 								<a href="gallery.php">Gallery<span class="menu-arrow"></span></a>
 							</li>
