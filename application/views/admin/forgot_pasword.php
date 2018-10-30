@@ -2,7 +2,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-        <title>Login</title>
+        <title>Forget Password</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/vendor/admin/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/vendor/admin/css/bootstrapValidator.css">
@@ -29,9 +29,9 @@
 						<div class="account-wrapper">
 						
 							<form id="forgtpassword" method="post" action="<?php echo base_url('admin/forgotpost'); ?>">
-								<div class="form-group form-focus">
+								<div class="form-group ">
 									<label class="control-label">Email</label>
-									<input class="form-control floating" name="email" id="email" type="text">
+									<input class="form-control floating" name="email" id="email" type="text" placeholder="Enter your email">
 								</div>
 								<div class="form-group text-center">
 									<button class="btn btn-primary btn-block account-btn" type="submit">Reset Password</button>

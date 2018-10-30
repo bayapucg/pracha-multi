@@ -28,9 +28,9 @@
 												</div>
 											</div>
 											<div class="col-md-6">
-												<div class="form-group form-focus">
-													<label class="control-label">Image</label>
-													<input type="file" name="image" id="image" class="form-control floating" />
+												<div class="form-group form-focus" >
+													
+													<input style="padding-top:15px;" type="file" name="image" id="image" class="form-control floating" />
 												</div>
 											</div>
 											<div class="col-md-12">

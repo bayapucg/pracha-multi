@@ -26,9 +26,9 @@
                 <div class="header-left">
                     <a href="<?php echo base_url('dashboard'); ?>" class="logo">
 					<?php if(isset($logo_details['image']) && $logo_details['image']!=''){ ?>
-						<img class="img-responsive" src="<?php echo base_url('assets/logo/'.$logo_details['image']); ?>"  alt="<?php echo isset($logo_details['org_image'])?$logo_details['org_image']:''; ?>">
+						<img  style="height:50px;width:auto;margin-top:-10px;"src="<?php echo base_url('assets/logo/'.$logo_details['image']); ?>"  alt="<?php echo isset($logo_details['org_image'])?$logo_details['org_image']:''; ?>">
 					<?php }else{ ?>
-						<img class="img-responsive" src="<?php echo base_url(); ?>assets/vendor/admin/img/logo.png"  alt="Logo">
+						<img  style="height:50px;width:auto;margin-top:-10px;" class="img-responsive" src="<?php echo base_url(); ?>assets/vendor/admin/img/logo.png"  alt="Logo">
 					<?php } ?>
 					</a>
                 </div>

@@ -25,13 +25,13 @@
 						<div class="account-wrapper" >
 							
 							<form id="defaultForm" name="defaultForm" method="post" class="" action="<?php echo base_url('admin/post'); ?>">
-								<div class="form-group form-focus">
+								<div class="form-group ">
 									<label class="control-label">Username or Email</label>
-									<input type="email" name="email" id="email" class="form-control floating" >
+									<input type="email" name="email" id="email" class="form-control floating"  placeholder="Enter Username">
 								</div>
-								<div class="form-group form-focus">
+								<div class="form-group ">
 									<label class="control-label">Password</label>
-								<input type="password" name="password" id="password" class="form-control floating">
+								<input type="password" name="password" id="password" class="form-control floating" placeholder="Enter Password">
 								</div>
 								<div class="form-group text-center">
 									<button type="submit" class="btn btn-primary btn-block account-btn" style="color:#fff;">Login</button>
