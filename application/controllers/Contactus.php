@@ -45,6 +45,7 @@ class Contactus extends Back_end {
 		'updated_at'=>date('Y-m-d H:i:s'),
 		);
 		$save=$this->Users_model->update_contact_details(1,$addcontact);
+		//echo $this->db->last_query();exit;
 		if(count($save)>0){
 				
 				$this->session->set_flashdata('success',"Contactus details successfully updated.");

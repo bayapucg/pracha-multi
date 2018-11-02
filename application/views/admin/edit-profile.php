@@ -8,7 +8,7 @@
 					</div>
 					<form id="defaultForm" name="defaultForm" method="post" action="<?php echo base_url('profile/editpost'); ?>" enctype="multipart/form-data">
 						<div class="card-box">
-							<h3 class="card-title">Basic Informations</h3>
+							<h3 class="card-title">Basic Information</h3>
 							<div class="row">
 								<div class="col-md-12">
 									<div class="profile-img-wrap">
@@ -47,9 +47,9 @@
 								</div>
 											<div class="col-md-6">
 												<div class="form-group form-focus select-focus">
-													<label class="control-label">Gendar</label>
+													<label class="control-label">Gender</label>
 													<select  name="gender" id="gender" class="select form-control floating">
-														<option value="">Select Gendar</option>
+														<option value="">Select Gender</option>
 														<option value="Male" <?php if($details['gender']=='Male'){ echo "selected";} ?>>Male</option>
 														<option value="Female" <?php if($details['gender']=='Female'){ echo "selected";} ?>>Female</option>
 													</select>
@@ -61,7 +61,7 @@
 							</div>
 						</div>
 						<div class="card-box">
-							<h3 class="card-title">Contact Informations</h3>
+							<h3 class="card-title">Contact Information</h3>
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group form-focus">

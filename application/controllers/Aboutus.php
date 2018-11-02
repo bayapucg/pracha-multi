@@ -92,7 +92,7 @@ class Aboutus extends Back_end {
 						$save=$this->aboutus_model->update_aboutus_details(1,$add_data);
 					
 					if(count($save)>0){
-							$this->session->set_flashdata('success','Image successfully updated');
+							$this->session->set_flashdata('success','About us successfully updated');
 							redirect('aboutus/lists');
 							
 						}else{
@@ -136,7 +136,7 @@ class Aboutus extends Back_end {
 							}else if($type=3){
 								unlink('assets/aboutus/'.$details['image3']);	
 							}
-						$this->session->set_flashdata('success','Image successfully deleted');
+						$this->session->set_flashdata('success','About us successfully deleted');
 						redirect('aboutus/lists');
 					}else{
 						$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");

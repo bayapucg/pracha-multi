@@ -20,7 +20,7 @@ class Slider extends Back_end {
 			$this->load->view('admin/footer');
 
 		}else{
-			$this->session->set_flashdata('loginerror','Please login to continue');
+			$this->session->set_flashdata('error','Please login to continue');
 			redirect('admin');
 		}
 	}
@@ -72,7 +72,7 @@ class Slider extends Back_end {
 						// here your insert query
 					$cnt++;}
 					if(count($save)>0){
-							$this->session->set_flashdata('success','Image successfully added');
+							$this->session->set_flashdata('success','Slider Image successfully added');
 							redirect('slider/lists');
 							
 						}else{
@@ -113,9 +113,9 @@ class Slider extends Back_end {
 					$update=$this->Slider_model->update_slider_details($s_id,$update_data);
 						if(count($update)>0){
 							if($status==1){
-							$this->session->set_flashdata('success','Image successfully deactivated');
+							$this->session->set_flashdata('success','Slider image successfully deactivated');
 							}else{
-							$this->session->set_flashdata('success','Image successfully activated');
+							$this->session->set_flashdata('success','Slider image successfully activated');
 							}
 							redirect('slider/lists');
 							
@@ -141,7 +141,7 @@ class Slider extends Back_end {
 					$delete=$this->Slider_model->delete_slider($s_id);
 					if(count($delete)>0){
 						unlink('assets/slider/'.$details['image']);
-						$this->session->set_flashdata('success','Image successfully deleted');
+						$this->session->set_flashdata('success','Slider image successfully deleted');
 						redirect('slider/lists');
 					}else{
 						$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");

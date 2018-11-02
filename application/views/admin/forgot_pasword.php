@@ -2,7 +2,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-        <title>Forget Password</title>
+        <title>Forgot password</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/vendor/admin/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/vendor/admin/css/bootstrapValidator.css">
@@ -14,7 +14,7 @@
         <div class="main-wrapper">
 			<div class="account-page">
 				<div class="container">
-					<h3 class="account-title" style="color:#fff;">Forget Password</h3>
+					<h3 class="account-title" style="color:#fff;">Forgot password</h3>
 					<div class="account-box">
 						<div class="account-logo bg-primary py-5" style="margin-bottom:0px">
 								<a href="">	

@@ -71,7 +71,7 @@ class Navigation extends Back_end {
 					}
 					
 						if(count($save)>0){
-							$this->session->set_flashdata('success','Logo successfully Updated');
+							$this->session->set_flashdata('success','Logo successfully updated');
 							redirect('navigation');
 							
 						}else{

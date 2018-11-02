@@ -20,14 +20,14 @@
 					<h3 class="account-title" style="color:#fff;">Login</h3>
 					<div class="account-box">
 					<div class="account-logo bg-primary py-5" style="margin-bottom:0px">
-								<a href=""><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="Focus Technologies"></a>
+								<a href=""><img src="<?php echo base_url(); ?>assets/vendor/img/logo.png" alt="Logo"></a>
 							</div>
 						<div class="account-wrapper" >
 							
 							<form id="defaultForm" name="defaultForm" method="post" class="" action="<?php echo base_url('admin/post'); ?>">
 								<div class="form-group ">
-									<label class="control-label">Username or Email</label>
-									<input type="email" name="email" id="email" class="form-control floating"  placeholder="Enter Username">
+									<label class="control-label"> Email Address</label>
+									<input type="text" name="email" id="email" class="form-control floating"  placeholder="Enter Email Address">
 								</div>
 								<div class="form-group ">
 									<label class="control-label">Password</label>
@@ -37,7 +37,7 @@
 									<button type="submit" class="btn btn-primary btn-block account-btn" style="color:#fff;">Login</button>
 								</div>
 								<div class="text-center">
-									<a href="<?php echo base_url('admin/forgotpassword'); ?>">Forgot your password?</a>
+									<a href="<?php echo base_url('admin/forgotpassword'); ?>">Forgot password</a>
 								</div>
 							</form>
 						</div>

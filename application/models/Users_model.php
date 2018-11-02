@@ -16,7 +16,7 @@ class Users_model extends CI_Model
 	
 	
 	public  function update_contact_details($c_id,$data){
-		$this->db->where('c_id',$u_id);
+		$this->db->where('c_id',$c_id);
 		return $this->db->update('contactform',$data);
 	}
 	

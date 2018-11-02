@@ -241,7 +241,7 @@
       <div class="container text-center">
         <h3>Call To Action</h3>
         <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="cta-btn" href="#">Call To Action</a>
+        <a class="cta-btn" href="#contact">Call To Action</a>
       </div>
     </section><!-- #call-to-action -->
 
@@ -254,14 +254,6 @@
           <h3 class="section-title">Our Gallery</h3>
         </header>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-          
-            </ul>
-          </div>
-        </div>
 
         <div class="row portfolio-container">
 		<?php foreach($gallery_details as $list){ ?>
@@ -385,7 +377,7 @@
               <textarea class="form-control" name="message" rows="5"  placeholder="Message" ></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit" name="submit">Send Message</button></div>
+            <div class="text-center btn btn-success"><a type="button" name="submit">Send Message</a></div>
           
         
 

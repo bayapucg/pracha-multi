@@ -78,7 +78,7 @@ class Profile extends Back_end {
 				
 			$profile_update=$this->Admin_model->update_profile_details($admindetails['id'],$updatedetails);
 			if(count($profile_update)>0){
-				$this->session->set_flashdata('success','Profile Details successfully Updated');
+				$this->session->set_flashdata('success','Profile details successfully updated');
 				redirect('profile');
 				
 			}else{
@@ -119,7 +119,7 @@ class Profile extends Back_end {
 						//echo '<pre>';print_r($updateuserdata);exit;
 						$upddateuser = $this->Admin_model->update_profile_details($admindetails['id'],$updateuserdata);
 						if(count($upddateuser)>0){
-							$this->session->set_flashdata('success',"password successfully updated");
+							$this->session->set_flashdata('success',"Password successfully updated");
 							redirect('profile');
 						}else{
 							$this->session->set_flashdata('error',"technical problem will occurred. Please try again.");
@@ -127,7 +127,7 @@ class Profile extends Back_end {
 						}
 					
 				}else{
-					$this->session->set_flashdata('error',"Password and Confirm password are not matched");
+					$this->session->set_flashdata('error',"Password and Confirm Password not matched");
 					redirect('profile/changepassword');
 				}
 				

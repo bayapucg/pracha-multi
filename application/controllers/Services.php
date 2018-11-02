@@ -76,7 +76,7 @@ class Services extends Back_end {
 						$save=$this->Services_model->update_services_details(1,$add_data);
 					
 					if(count($save)>0){
-							$this->session->set_flashdata('success','Image successfully updated');
+							$this->session->set_flashdata('success','Services successfully updated');
 							redirect('services/lists');
 							
 						}else{
