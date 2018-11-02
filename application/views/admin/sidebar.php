@@ -39,7 +39,7 @@
 								<ul class="list-unstyled" style="display: none;">
 								
 									<li><a href="<?php echo base_url('gallery'); ?>">Gallery</a></li>
-									<li><a href="<?php echo base_url('gallery/list'); ?>">Gallery List</a></li>
+									<li><a href="<?php echo base_url('gallery/lists'); ?>">Gallery List</a></li>
 						
 								</ul>
 							</li>
