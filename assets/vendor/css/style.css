@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 .logo-header img{
-	width:150px;height:auto;
+	width:auto;height:40px;
 }
 
 /* Back to top button */

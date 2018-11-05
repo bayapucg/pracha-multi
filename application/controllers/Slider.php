@@ -153,8 +153,13 @@ class Slider extends Back_end {
 		}
 		
 	}
-	
-	
+    
+    public function search_sliders(){
+        
+		$this->load->view('admin/search_sliders');
+		$this->load->view('admin/footer');
+		
+	}
 	
 	
 }
