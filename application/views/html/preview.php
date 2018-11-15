@@ -245,310 +245,155 @@
             <!--==========================
       Call To Action Section
     ============================-->
-<<<<<<< HEAD
-    <section id="call-to-action" class="wow fadeIn">
-      <div class="container text-center">
-        <h3>Call To Action</h3>
-        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="cta-btn" href="#contact">Call To Action</a>
-      </div>
-    </section><!-- #call-to-action -->
-
-    <?php if(isset($gallery_details) && count($gallery_details)>0){ ?>
-   
-    <section id="portfolio"  class="section-bg" >
-      <div class="container">
-
-        <header class="section-header">
-          <h3 class="section-title">Our Gallery</h3>
-        </header>
-
-
-        <div class="row portfolio-container">
-		<?php foreach($gallery_details as $list){ ?>
-		<input type="hidden" name="gallery_id[]" id="gallery_id" value="<?php echo isset($list['g_id'])?$list['g_id']:''; ?>">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<?php echo base_url('assets/gallery/'.$list['image']); ?>" class="img-fluid" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
-                <a href="<?php echo base_url('assets/gallery/'.$list['image']); ?>" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#"><?php echo isset($list['text'])?$list['text']:''; ?></a></h4>
-               
-			   
-              </div>
-            </div>
-          </div>
-		<?php } ?>
-
-
-        </div>
-
-      </div>
-    </section><!-- #portfolio -->
-	
-	<?php } ?>
-
-     <?php if(isset($testimonials_details) && count($testimonials_details)>0){ ?>
-    <section id="testimonials" class="section-bg wow fadeInUp">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Testimonials</h3>
-        </header>
-
-        <div class="owl-carousel testimonials-carousel">
-			<?php foreach($testimonials_details as $list){ ?>
-					<input type="hidden" name="testimonials_id[]" id="testimonials_id" value="<?php echo isset($list['t_id'])?$list['t_id']:''; ?>">
-
-          <div class="testimonial-item">
-            <img src="<?php echo base_url('assets/testimonial/'.$list['image']); ?>" class="testimonial-img" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
-            <h3><?php echo isset($list['name'])?$list['name']:''; ?></h3>
-            <h4><?php echo isset($list['designation'])?$list['designation']:''; ?></h4>
-            <p>
-              <img src="<?php echo base_url(); ?>assets/vendor/img/quote-sign-left.png" class="quote-sign-left" alt="">
-              <?php echo isset($list['paragraph'])?$list['paragraph']:''; ?>.
-              <img src="<?php echo base_url(); ?>assets/vendor/img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-			<?php } ?>
-          
-
-          
-
-        </div>
-
-      </div>
-    </section><!-- #testimonials -->
-
-    <?php } ?>
-	 
-    <section id="contact" class="section-bg wow fadeInUp">
-      <div class="container">
-
-        <div class="section-header">
-          <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-		<input type="hidden" name="contactus_details_id" id="contactus_details_id" value="<?php echo isset($contactus_details['c_id'])?$contactus_details['c_id']:''; ?>">
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address><?php echo isset($contactus_details['address'])?$contactus_details['address']:''; ?></address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855"><?php echo isset($contactus_details['phone'])?$contactus_details['phone']:''; ?></a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com"><?php echo isset($contactus_details['email'])?$contactus_details['email']:''; ?></a></p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <!--<form id="defaultForm" action="<?php echo base_url('preview/contactpost'); ?>" method="post" role="form" class="">-->
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" >
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"  >
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"  >
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5"  placeholder="Message" ></textarea>
-              <div class="validation"></div>
-            </div>
-            <div class="text-center btn btn-success"><a type="button" name="submit">Send Message</a></div>
-          
-        
-
-      </div>
-    </section><!-- #contact -->
-
-  </main>
-
-  <!--==========================
-=======
-            <section id="call-to-action" class="wow fadeIn">
+                <section id="call-to-action" class="wow fadeIn">
                 <div class="container text-center">
                     <h3>Call To Action</h3>
                     <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a class="cta-btn" href="#">Call To Action</a>
+                    <a class="cta-btn" href="#contact">Call To Action</a>
                 </div>
-            </section><!-- #call-to-action -->
+                </section><!-- #call-to-action -->
 
-            <?php if(isset($gallery_details) && count($gallery_details)>0){ ?>
+                <?php if(isset($gallery_details) && count($gallery_details)>0){ ?>
 
-            <section id="portfolio" class="section-bg">
-                <div class="container">
+                <section id="portfolio" class="section-bg">
+                    <div class="container">
 
-                    <header class="section-header">
-                        <h3 class="section-title">Our Gallery</h3>
-                    </header>
+                        <header class="section-header">
+                            <h3 class="section-title">Our Gallery</h3>
+                        </header>
 
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <ul id="portfolio-flters">
-                                <li data-filter="*" class="filter-active">All</li>
 
-                            </ul>
-                        </div>
-                    </div>
+                        <div class="row portfolio-container">
+                            <?php foreach($gallery_details as $list){ ?>
+                            <input type="hidden" name="gallery_id[]" id="gallery_id" value="<?php echo isset($list['g_id'])?$list['g_id']:''; ?>">
 
-                    <div class="row portfolio-container">
-                        <?php foreach($gallery_details as $list){ ?>
-                        <input type="hidden" name="gallery_id[]" id="gallery_id" value="<?php echo isset($list['g_id'])?$list['g_id']:''; ?>">
+                            <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="<?php echo base_url('assets/gallery/'.$list['image']); ?>" class="img-fluid" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
+                                        <a href="<?php echo base_url('assets/gallery/'.$list['image']); ?>" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                                        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                                    </figure>
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="<?php echo base_url('assets/gallery/'.$list['image']); ?>" class="img-fluid" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
-                                    <a href="<?php echo base_url('assets/gallery/'.$list['image']); ?>" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </figure>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#">
+                                                <?php echo isset($list['text'])?$list['text']:''; ?></a></h4>
 
-                                <div class="portfolio-info">
-                                    <h4><a href="#">
-                                    <?php echo isset($list['text'])?$list['text']:''; ?></a></h4>
+
+                                    </div>
                                 </div>
                             </div>
+                            <?php } ?>
+
+
                         </div>
-                        <?php } ?>
+
                     </div>
-                </div>
-            </section><!-- #portfolio -->
+                </section><!-- #portfolio -->
 
-            <?php } ?>
+                <?php } ?>
 
-            <?php if(isset($testimonials_details) && count($testimonials_details)>0){ ?>
-            <section id="testimonials" class="section-bg wow fadeInUp">
-                <div class="container">
+                <?php if(isset($testimonials_details) && count($testimonials_details)>0){ ?>
+                <section id="testimonials" class="section-bg wow fadeInUp">
+                    <div class="container">
 
-                    <header class="section-header">
-                        <h3>Testimonials</h3>
-                    </header>
+                        <header class="section-header">
+                            <h3>Testimonials</h3>
+                        </header>
 
-                    <div class="owl-carousel testimonials-carousel">
-                        <?php foreach($testimonials_details as $list){ ?>
-                        <input type="hidden" name="testimonials_id[]" id="testimonials_id" value="<?php echo isset($list['t_id'])?$list['t_id']:''; ?>">
+                        <div class="owl-carousel testimonials-carousel">
+                            <?php foreach($testimonials_details as $list){ ?>
+                            <input type="hidden" name="testimonials_id[]" id="testimonials_id" value="<?php echo isset($list['t_id'])?$list['t_id']:''; ?>">
 
-                        <div class="testimonial-item">
-                            <img src="<?php echo base_url('assets/testimonial/'.$list['image']); ?>" class="testimonial-img" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
-                            <h3>
-                                <?php echo isset($list['name'])?$list['name']:''; ?>
-                            </h3>
-                            <h4>
-                                <?php echo isset($list['designation'])?$list['designation']:''; ?>
-                            </h4>
-                            <p>
-                                <img src="<?php echo base_url(); ?>assets/vendor/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                                <?php echo isset($list['paragraph'])?$list['paragraph']:''; ?>.
-                                <img src="<?php echo base_url(); ?>assets/vendor/img/quote-sign-right.png" class="quote-sign-right" alt="">
-                            </p>
-                        </div>
-                        <?php } ?>
-                    </div>
-
-                </div>
-            </section><!-- #testimonials -->
-
-            <?php } ?>
-
-            <section id="contact" class="section-bg wow fadeInUp">
-                <div class="container">
-
-                    <div class="section-header">
-                        <h3>Contact Us</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-                    </div>
-                    <input type="hidden" name="contactus_details_id" id="contactus_details_id" value="<?php echo isset($contactus_details['c_id'])?$contactus_details['c_id']:''; ?>">
-
-                    <div class="row contact-info">
-
-                        <div class="col-md-4">
-                            <div class="contact-address">
-                                <i class="ion-ios-location-outline"></i>
-                                <h3>Address</h3>
-                                <address>
-                                    <?php echo isset($contactus_details['address'])?$contactus_details['address']:''; ?></address>
+                            <div class="testimonial-item">
+                                <img src="<?php echo base_url('assets/testimonial/'.$list['image']); ?>" class="testimonial-img" alt="<?php echo isset($list['org_image'])?$list['org_image']:''; ?>">
+                                <h3>
+                                    <?php echo isset($list['name'])?$list['name']:''; ?>
+                                </h3>
+                                <h4>
+                                    <?php echo isset($list['designation'])?$list['designation']:''; ?>
+                                </h4>
+                                <p>
+                                    <img src="<?php echo base_url(); ?>assets/vendor/img/quote-sign-left.png" class="quote-sign-left" alt="">
+                                    <?php echo isset($list['paragraph'])?$list['paragraph']:''; ?>.
+                                    <img src="<?php echo base_url(); ?>assets/vendor/img/quote-sign-right.png" class="quote-sign-right" alt="">
+                                </p>
                             </div>
-                        </div>
+                            <?php } ?>
 
-                        <div class="col-md-4">
-                            <div class="contact-phone">
-                                <i class="ion-ios-telephone-outline"></i>
-                                <h3>Phone Number</h3>
-                                <p><a href="tel:+155895548855">
-                                        <?php echo isset($contactus_details['phone'])?$contactus_details['phone']:''; ?></a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="contact-email">
-                                <i class="ion-ios-email-outline"></i>
-                                <h3>Email</h3>
-                                <p><a href="mailto:info@example.com">
-                                        <?php echo isset($contactus_details['email'])?$contactus_details['email']:''; ?></a></p>
-                            </div>
                         </div>
 
                     </div>
+                </section><!-- #testimonials -->
 
-                    <div class="form">
-                        <div id="sendmessage">Your message has been sent. Thank you!</div>
-                        <div id="errormessage"></div>
-                        <!--<form id="defaultForm" action="<?php echo base_url('preview/contactpost'); ?>" method="post" role="form" class="">-->
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+                <?php } ?>
+
+                <section id="contact" class="section-bg wow fadeInUp">
+                    <div class="container">
+
+                        <div class="section-header">
+                            <h3>Contact Us</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                        </div>
+                        <input type="hidden" name="contactus_details_id" id="contactus_details_id" value="<?php echo isset($contactus_details['c_id'])?$contactus_details['c_id']:''; ?>">
+
+                        <div class="row contact-info">
+
+                            <div class="col-md-4">
+                                <div class="contact-address">
+                                    <i class="ion-ios-location-outline"></i>
+                                    <h3>Address</h3>
+                                    <address>
+                                        <?php echo isset($contactus_details['address'])?$contactus_details['address']:''; ?></address>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="contact-phone">
+                                    <i class="ion-ios-telephone-outline"></i>
+                                    <h3>Phone Number</h3>
+                                    <p><a href="tel:+155895548855">
+                                            <?php echo isset($contactus_details['phone'])?$contactus_details['phone']:''; ?></a></p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="contact-email">
+                                    <i class="ion-ios-email-outline"></i>
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:info@example.com">
+                                            <?php echo isset($contactus_details['email'])?$contactus_details['email']:''; ?></a></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="form">
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+                            <!--<form id="defaultForm" action="<?php echo base_url('preview/contactpost'); ?>" method="post" role="form" class="">-->
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+                                    <div class="validation"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
                                 <div class="validation"></div>
                             </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
                                 <div class="validation"></div>
                             </div>
+                            <div><button type="submit" class="btn btn-success" name="submit">Send Message</button></div>
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                        </div>
-                        <div class="text-center"><button type="submit" name="submit">Send Message</button></div>
                     </div>
-                </div>
-            </section><!-- #contact -->
-
+                </section><!-- #contact -->
         </main>
 
         <!--==========================
@@ -601,11 +446,7 @@
                                 <a href="<?php echo isset($contactus_details['google_plus'])?$contactus_details['google_plus']:'#'; ?>" target="_balnk" class="google-plus"><i class="fa fa-google-plus"></i></a>
                                 <a href="<?php echo isset($contactus_details['linkedIn_link'])?$contactus_details['linkedIn_link']:'#'; ?>" target="_balnk" class="linkedin"><i class="fa fa-linkedin"></i></a>
                             </div>
-
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
